@@ -109,6 +109,14 @@ if (isset($_SESSION['pwUsuario']) && !empty($_SESSION['pwUsuario'])) {
 		.formOk{
 			max-width: 500px;
 		}
+		.resBtn{
+			background-color: #562CDF;
+			color: #FFF;
+		}
+		.resBtn:hover{
+			background-color: #3B008B;
+			color: #FFF;
+		}
 		/*estilo de form agenda*/
 
 		<?php echo $varCss; ?>
@@ -229,9 +237,9 @@ if (isset($_SESSION['pwUsuario']) && !empty($_SESSION['pwUsuario'])) {
 
 					<div class="form-group">
 
-					    <label>No. de Asistentes o Visitados:</label>
+					    <label>No. de Asistentes Programados:</label>
 
-					    <input type="text" name="txtVisitados" size="2" maxlength="2" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" placeholder="Asistentes..." autocomplete="on" class="form-control" required/>
+					    <input type="text" name="txtVisitados" size="2" maxlength="2" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" placeholder="Asistentes Programados..." autocomplete="on" class="form-control" required/>
 					</div>
 
 					<div class="form-group">
@@ -245,6 +253,11 @@ if (isset($_SESSION['pwUsuario']) && !empty($_SESSION['pwUsuario'])) {
 					<div class="form-group">
 
 					    <input type="submit" value="Guardar" class="btn btn-success btn-lg btn-block"/>
+					</div>
+
+					<div class="form-group">
+
+					    <input type="reset" value="Limpiar" class="btn btn btn-lg btn-block resBtn"/>
 					</div>
 
 					
