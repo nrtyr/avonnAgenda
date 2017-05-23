@@ -1,0 +1,47 @@
+        html, body{
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+        }
+        #main-wrapper{
+            min-height: 100%;
+            position: relative;
+        }
+        .cuadroUno{
+        	margin-top: 7%;
+        	width: 100%;
+        }
+        .imgLogo{
+        	min-width: 50%;
+        	max-width: 100%;
+        	margin: auto;
+        	left: 0px;
+        	right: 0px;
+        	position: absolute;
+        	background-color: #FFF;
+        }
+        .cuadroTitulo{
+			width: 100%;
+			height: 30px;
+		}
+		.cUnoTitulo{
+			height: 30px;
+			float: left;
+			line-height: 30px;
+			font-size: 1.5em;
+		}
+		.cDosTitulo{
+			height: 30px;
+			float: right;
+			line-height: 30px;
+			font-size: 2em;
+			
+		}
+        .iconoXGrande{
+            text-align: center;
+            font-size: 8em;
+            color: #F7045A;
+        }
+        .txtCentrado{
+            text-align: center;
+        }
